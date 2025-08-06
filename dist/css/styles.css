@@ -10970,3 +10970,46 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+.cv-download-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: var(--bs-primary);
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 999;
+  transition: background-color 0.3s ease;
+}
+.cv-download-btn:hover {
+  background-color: #974a2d; /* màu hover từ theme của bà */
+}
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  display: block;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid var(--bs-primary);
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--bs-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.portfolio-item:hover {
+  background-color: var(--bs-primary);
+  color: #fff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
