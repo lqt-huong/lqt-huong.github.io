@@ -10984,9 +10984,23 @@ section.resume-section .resume-section-content {
   z-index: 999;
   transition: background-color 0.3s ease;
 }
+
 .cv-download-btn:hover {
-  background-color: #974a2d; /* màu hover từ theme của bà */
+  background-color: #974a2d;
+  color: #fff;
 }
+
+
+@media (max-width: 992px) {
+  .cv-download-btn {
+    top: auto;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
